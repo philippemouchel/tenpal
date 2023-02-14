@@ -13,6 +13,7 @@ Drupal 10 sandbox project
 git clone git@github.com:philippemouchel/tenpal.git
 cd tenpal
 composer install
+cp build/local/services.yml web/sites/default/services.yml
 cp build/local/settings.php web/sites/default/settings.php
 cp build/local/settings.local.php web/sites/default/settings.local.php
 lando start
