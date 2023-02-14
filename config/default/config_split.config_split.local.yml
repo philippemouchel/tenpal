@@ -1,0 +1,18 @@
+uuid: f74d9c92-f9d6-4de9-a557-3fb45b47cd91
+langcode: en
+status: false
+dependencies: {  }
+id: local
+label: Local
+description: 'Local config split override.'
+weight: 0
+folder: ../config/envs/local
+module:
+  devel: 0
+theme: {  }
+blacklist:
+  - devel.settings
+  - devel.toolbar.settings
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
